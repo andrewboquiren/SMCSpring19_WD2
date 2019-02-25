@@ -4,7 +4,7 @@ body {
 /* above code removes the margins on the side so it is flush remeber that real estate is so important at small screens*/
 
 .container {
-    background-color: yellow;
+    background-color: salmon;
     width: 100%;
     height: 200px;
 }
@@ -15,7 +15,7 @@ body {
 }
 
 nav.navbar {
-    background-color: navy;
+    background-color: bisque;
     width: 100%;
     padding: 20px 0px ;
 }
@@ -41,12 +41,35 @@ nav.navbar li:last-child {
 nav.navbar a {
     font-size: 22px;
     text-decoration: none;
-    color:whitesmoke;
     line-height: 30px;
 }
 main.container h1 {
     text-align: center;
     padding-top: 50px;
+}
+
+a {
+    text-decoration: none
+}
+
+a:link {
+    color: whitesmoke;
+}
+
+a:visited {
+    color:darkkhaki;
+}
+
+a:focus {
+    color: green;
+}
+
+a:hover {
+    color: burlywood;
+}
+
+a:active {
+    color: yellowgreen;
 }
 
 @media(min-width: 768px){
