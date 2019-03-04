@@ -1,6 +1,14 @@
 .container {
     background-color: oldlace;
 }
+
+.floater-section {
+    float: left;
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
 .red {
     background-color: lightcoral;
 }
@@ -11,13 +19,6 @@
 
 .blue {
     background-color: lightskyblue;
-}
-
-.floater-section {
-    float: left;
-    width: 100%;
-    min-height: 200px;
-    margin-bottom: 20px;
 }
 
 .yellow {
