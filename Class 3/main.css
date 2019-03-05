@@ -11,25 +11,26 @@ body {
     font-weight: 200;
 }
 
-nav.navbar {
-    width: 100%;
-}
-
 body img.logo {
     margin: 0px auto;
     padding: 10px;
+    float: left;
+    clear: right;
+}
+
+nav.navbar {
+    width: 100%;
 }
 
 nav.navbar ul {
     list-style: none;
     text-align: center;
-    padding-left: 0px;
 }
 
 nav.navbar li {
     display: inline-block;
-    margin: 0px auto;
-    padding: 10px;
+    padding: 5px;
+    margin-top: 35px;
 }
 
 header img {
@@ -177,16 +178,24 @@ a:active {
     .medium-width-66 {
         width: 66.66%;
     }
-    
+
     .medium-width-100 {
         width: 100%;
     }
 
+    nav.navbar ul {
+        float: right;
+    }
+    
+    nav.navbar li {
+        display: inline-block;
+        margin-right: 20px;
+    }
 } 
 
 /* LARGE SCREENS*/
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
     .large-width-25 {
         width: 25%;
     }
