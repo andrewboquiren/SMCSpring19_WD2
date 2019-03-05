@@ -1,5 +1,13 @@
+/* CSS Document */
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400i');
+
 body {
     margin: 0px;
+    font-family: Poppins;
+    font-weight: 200;
 }
 
 nav.navbar {
@@ -9,12 +17,45 @@ nav.navbar {
 nav.navbar ul {
     list-style: none;
     text-align: center;
+    padding-left: 0px;
 }
 
 nav.navbar li {
     display: inline-block;
     margin: 0px auto;
     padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none
+}
+
+a:link {
+    color: whitesmoke;
+}
+
+a:visited {
+    color:darkkhaki;
+}
+
+a:focus {
+    color: green;
+}
+
+a:hover {
+    color: burlywood;
+}
+
+a:active {
+    color: yellowgreen;
+}
+
+.active {
+    font-weight: 500;
 }
 
 .container {
@@ -26,6 +67,8 @@ nav.navbar li {
     width: 100%;
     min-height: 200px;
     margin-bottom: 20px;
+    font-family: Libre Baskerville;
+    font-weight: 500;
 }
 
 .red {
