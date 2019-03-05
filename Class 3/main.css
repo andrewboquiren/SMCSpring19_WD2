@@ -1,3 +1,22 @@
+body {
+    margin: 0px;
+}
+
+nav.navbar {
+    width: 100%;
+}
+
+nav.navbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav.navbar li {
+    display: inline-block;
+    margin: 0px auto;
+    padding: 10px;
+}
+
 .container {
     background-color: oldlace;
 }
@@ -65,7 +84,7 @@
     }
 
     .medium-width-33 {
-        width: 33%;
+        width: 33.33%;
     }
 
     .medium-width-50 {
@@ -86,7 +105,7 @@
     }
 
     .large-width-33 {
-        width: 33%;
+        width: 33.33%;
     }
 
     .large-width-50 {
