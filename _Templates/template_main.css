@@ -3,6 +3,10 @@
 
 .floater-section {
     float: left;
+    float: left;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
 }
 
 .clearfix {

@@ -3,7 +3,40 @@
 
 .floater-section {
     float: left;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
 }
+
+.content {
+    padding: 0px 10px;
+    min-height: 500px;
+    border-bottom: 2px solid darkorchid;
+    position: relative;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.content .abs-pos {
+    position: absolute;
+}
+
+#jkrOverlap {
+    top: 30px;
+}
+
+#jkrTitle {
+    top: 200px;
+    right: 30px;
+    color: whitesmoke;
+    text-shadow: 1px 0px 4px darkblue;
+}
+
+.content .image-container {
+     min-height: 300px;
+ }
 
 .clearfix {
     clear: both;
