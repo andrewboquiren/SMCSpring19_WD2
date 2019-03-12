@@ -15,7 +15,7 @@ nav.navbar li {
 
 .content {
     padding: 10px 10px;
-    min-height: 572px;
+    min-height: 650px;
     border-bottom: 2px solid darkorchid;
     position: relative;
 }
@@ -34,8 +34,23 @@ nav.navbar li {
 }
 
 #crprTitle {
-    top: 50px;
-    margin: 0px auto;
+    top: 1%;
+    left: 5%;
+    color: goldenrod;
+    font-size: 50px;
+    text-align: center;
+    line-height: 1;
+    text-shadow: 1px 0px 4px navy;
+}
+
+#glssTitle {
+    top: 1%;
+    left: 5%;
+    color: goldenrod;
+    font-size: 35px;
+    text-align: center;
+    line-height: 1;
+    text-shadow: 1px 0px 4px navy;    
 }
 
 #jkrOverlap{
@@ -43,8 +58,11 @@ nav.navbar li {
 }
 
 #jkrTitle {
-    top: 200px;
-    right: 30px;
-    color: whitesmoke;
-    text-shadow: 1px 0px 4px #073566;
+    top: 1%;
+    left: 5%;
+    color: goldenrod;
+    font-size: 35px;
+    text-align: center;
+    line-height: 1;
+    text-shadow: 1px 0px 4px navy; 
 }
