@@ -62,6 +62,17 @@
     .med-width-100 {
         width: 100%;
     }
+
+    #sprmnOvrlp {
+        float: left;
+        position: relative;
+        width: 50%;
+    }
+
+    #jrkOverlap {
+
+    }
+
 }
 
 /*************LARGE SCREENS*******************/

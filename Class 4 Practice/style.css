@@ -1,3 +1,7 @@
+.active {
+    font-weight: bold;
+}
+
 nav.navbar {
     width: 100%;
 }
@@ -21,12 +25,12 @@ nav.navbar li {
 }
 
 .content .img-container {
-    min-height: 160px;
+    min-height: 370px;
 }
 
 .content img {
     max-width: 100%;
-    min-height: 0px;
+    min-height: 260px;
 }
 
 .content .abs-pos {
@@ -43,6 +47,16 @@ nav.navbar li {
     text-shadow: 1px 0px 4px navy;
 }
 
+#crprTitle2 {
+    top: 1%;
+    left: 5%;
+    color: goldenrod;
+    font-size: 35px;
+    text-align: center;
+    line-height: 1;
+    text-shadow: 1px 0px 4px navy;  
+}
+
 #glssTitle {
     top: 1%;
     left: 5%;
@@ -54,7 +68,12 @@ nav.navbar li {
 }
 
 #jkrOverlap{
-    top: 30px;
+    top: -400px;
+    position: relative;
+}
+
+#sprmnOvrlp {
+    position:relative;
 }
 
 #jkrTitle {
