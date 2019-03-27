@@ -18,7 +18,7 @@ h2 {
     font-family: Germania One;
     font-size: 50px;
     text-align: center;
-    line-height: .25;
+    line-height: 1;
 }
 
 h3 {
@@ -50,12 +50,15 @@ nav.navbar li {
     position: relative;
 }
 
-.socialmedial ul {
+.socialmedia ul {
     list-style: none;
+    text-align: center;
+    list-style-type: none;
 }
 
-.socialmedial li {
+.socialmedia li {
     display: inline-block;
+
 }
 
 .content .img-container {
