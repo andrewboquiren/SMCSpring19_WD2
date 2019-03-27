@@ -1,8 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
+
 header .logo img {
     width: 50%;
+}
+
+h1 {
+    font-family: Germania One;
+}
+
+h2 {
+    font-family: Germania One;
+}
+
+h3 {
+    font-family: Germania One;
 }
 
 nav.navbar ul {
@@ -11,6 +25,7 @@ nav.navbar ul {
     margin: 0px auto;
     padding: 5px 0px;
     text-align: center;
+    font-family: Germania One;
 }
 
 nav.navbar li {
