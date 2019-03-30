@@ -1,8 +1,32 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
+
 header .logo img {
     width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-family: Germania One;
+    font-size: 75px;
+    text-align: center;
+    line-height: 1;
+}
+
+h2 {
+    font-family: Germania One;
+    font-size: 50px;
+    text-align: center;
+    line-height: 1;
+}
+
+h3 {
+    font-family: Germania One;
+    font-size: 25px;
+    text-align: center;
+    line-height: .25;
 }
 
 nav.navbar ul {
@@ -11,6 +35,7 @@ nav.navbar ul {
     margin: 0px auto;
     padding: 5px 0px;
     text-align: center;
+    font-family: Germania One;
 }
 
 nav.navbar li {
@@ -26,16 +51,20 @@ nav.navbar li {
     position: relative;
 }
 
-.socialmedial ul {
+.socialmedia ul {
     list-style: none;
+    text-align: center;
+    list-style-type: none;
 }
 
-.socialmedial li {
+.socialmedia li {
     display: inline-block;
+
 }
 
 .content .img-container {
     min-height: 160px;
+    width: 100%;
 }
 
 .content img {
