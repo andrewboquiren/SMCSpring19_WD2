@@ -48,7 +48,14 @@ nav.navbar li {
     padding: 0 10px 0 10px;
 }
 
-.content {
+#welcomebanner .content {
+    padding: 0px 10px;
+    min-height: 500px;
+    border-bottom: 2px solid darkorchid;
+    position: relative;
+}
+
+.content #fooditems {
     padding: 0px 10px;
     min-height: 250px;
     border-bottom: 2px solid darkorchid;
@@ -68,18 +75,17 @@ nav.navbar li {
 
 .content .img-container {
     min-height: 160px;
-    width: 100%;
 }
 
-/*
 .content img {
     max-width: 100%;
 }
-*/
+
 
 .content .abs-pos {
     position: absolute;
 }
+
 
 .container {
     margin: auto;
@@ -89,7 +95,7 @@ nav.navbar li {
 .floater-section {
     float: left;
     width: 100%;
-    min-height: 200px;
+    min-height: 250px;
     margin-bottom: 20px;
 }
 

@@ -1,0 +1,133 @@
+/* CSS Document */
+@charset "UTF-8";
+
+.container {
+    margin: 0px auto;
+    background-color: lemonchiffon;
+}
+
+.floater-section {
+    float: left;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 0px 10px;
+    min-height: 572px;
+    border-bottom: 2px solid darkorchid;
+    position: relative;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.content .abs-pos {
+    position: absolute;
+}
+
+#jkrOverlap {
+    top: 30px;
+}
+
+.content .image-container {
+     min-height: 300px;
+ }
+
+.clearfix {
+    clear: both;
+}
+
+/* SMALL SCREENS*/
+
+@media (min-width: 450px) {
+
+    .container {
+        width: 440px;
+    }
+
+    .small-width-25 {
+        width: 25%;
+    }
+
+    .small-width-33 {
+        width: 33.33%;
+    }
+
+    .small-width-50 {
+        width: 50%;
+    }
+
+    .small-width-100 {
+        width: 100%;
+    }
+}
+
+/* MEDIUM SCREENS*/
+
+@media (min-width: 768px) {
+    
+    .container {
+        width:760px;
+    }
+
+    .medium-width-25 {
+        width: 25%;
+    }
+
+    .medium-width-33 {
+        width: 33.33%;
+    }
+
+    .medium-width-50 {
+        width: 50%;
+    }
+
+    .medium-width-66 {
+        width: 66.66%;
+    }
+
+    .medium-width-100 {
+        width: 100%;
+    }
+
+    nav.navbar ul {
+        float: right;
+    }
+    nav.navbar li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+} 
+
+/* LARGE SCREENS*/
+
+@media (min-width: 992px) {
+    
+    .container {
+        width: 960px;
+    }
+
+    .large-width-25 {
+        width: 25%;
+    }
+
+    .large-width-33 {
+        width: 33.33%;
+    }
+
+    .large-width-50 {
+        width: 50%;
+    }
+
+    .large-width-75 {
+        width: 75%;
+    }
+
+    .large-width-100 {
+        width: 100%;
+    }
+
+}
