@@ -3,18 +3,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Germania+One');
 
-header .logo img {
-    width: 100%;
-    height: 25%;
-    text-align: center;
-}
-
 h1 {
     font-family: Germania One;
     color: white;
     font-size: 75px;
     text-align: center;
     line-height: 1;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
 }
 
 h2 {
@@ -25,21 +22,24 @@ h2 {
     line-height: 1;
 }
 
+
 h3 {
     font-family: Germania One;
     color: white;
     font-size: 25px;
     text-align: center;
     line-height: .25;
+    left: 50%;
+    transform: translate(-50%)
 }
 
 nav.navbar ul {
+    font-family: Germania One;
     list-style: none;
     padding-left: 0;
     margin: 0px auto;
     padding: 5px 0px;
     text-align: center;
-    font-family: Germania One;
 }
 
 nav.navbar li {
@@ -48,18 +48,35 @@ nav.navbar li {
     padding: 0 10px 0 10px;
 }
 
-#welcomebanner .content {
-    padding: 0px 10px;
-    min-height: 500px;
-    border-bottom: 2px solid darkorchid;
-    position: relative;
+.container {
+    margin: 0px auto;
+    background-color: lemonchiffon;
 }
 
-.content #fooditems {
+.floater-section {
+    float: left;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+
+.content {
     padding: 0px 10px;
     min-height: 250px;
     border-bottom: 2px solid darkorchid;
     position: relative;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.content .abs-pos {
+    position: absolute;
+}
+
+.content .img-container {
+    min-height: 160px;
 }
 
 .socialmedia ul {
@@ -71,32 +88,6 @@ nav.navbar li {
 .socialmedia li {
     display: inline-block;
 
-}
-
-.content .img-container {
-    min-height: 160px;
-}
-
-.content img {
-    max-width: 100%;
-}
-
-
-.content .abs-pos {
-    position: absolute;
-}
-
-
-.container {
-    margin: auto;
-    background-color: lemonchiffon;
-}
-
-.floater-section {
-    float: left;
-    width: 100%;
-    min-height: 250px;
-    margin-bottom: 20px;
 }
 
 .clearfix {
@@ -163,6 +154,14 @@ nav.navbar li {
     
     .med-width-100 {
         width: 100%;
+    }
+    
+    h1 {
+        font-size: 100px;
+    }
+
+    h3 {
+        margin-top: 65px;
     }
 }
 

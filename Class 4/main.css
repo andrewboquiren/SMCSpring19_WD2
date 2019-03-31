@@ -15,7 +15,7 @@
 
 .content {
     padding: 0px 10px;
-    min-height: 572px;
+    min-height: 250px;
     border-bottom: 2px solid darkorchid;
     position: relative;
 }
@@ -26,6 +26,7 @@
 
 .content .abs-pos {
     position: absolute;
+    margin-left: -10px;
 }
 
 #jkrOverlap {
