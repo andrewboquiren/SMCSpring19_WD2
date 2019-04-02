@@ -2,9 +2,20 @@
 /* CSS Document */
 
 @import url('https://fonts.googleapis.com/css?family=Germania+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700i,900');
+
+#logo {
+    text-align: center
+}
+
+#logo img {
+    text-align: center;
+    width:100px;
+}
 
 h1 {
-    font-family: Germania One;
+    font-family: Lobster;
     color: white;
     font-size: 60px;
     text-align: center;
@@ -15,7 +26,7 @@ h1 {
 }
 
 h2 {
-    font-family: Germania One;
+    font-family: Lobster;
     color: white;
     font-size: 55px;
     text-align: center;
@@ -26,7 +37,8 @@ h2 {
 }
 
 h3 {
-    font-family: Germania One;
+    font-family: Roboto;
+    font-weight: 400;
     color: white;
     font-size: 25px;
     text-align: center;
@@ -36,7 +48,7 @@ h3 {
 }
 
 nav.navbar ul {
-    font-family: Germania One;
+    font-family: Lobster;
     list-style: none;
     padding-left: 0;
     margin: 0px auto;
@@ -52,7 +64,7 @@ nav.navbar li {
 
 .container {
     margin: 0px auto;
-    background-color: lemonchiffon;
+    /* background-color: lemonchiffon; */
 }
 
 .floater-section {
@@ -168,8 +180,14 @@ li {
         margin-top: 65px;
     }
 
-    #welcomebanner img {
-
+    #logo {
+        text-align: left;
+    }
+    
+    nav.navbar ul {
+        text-align: center;
+        float: right;
+    
     }
 }
 
