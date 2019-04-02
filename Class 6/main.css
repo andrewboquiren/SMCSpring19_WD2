@@ -92,7 +92,7 @@ nav.navbar ul {
 nav.navbar li {
     display: inline-block;
     border-bottom: 4px solid whitesmoke;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 0 5px;
 }
 
 .container {
@@ -145,6 +145,23 @@ nav.navbar li {
     width: 100%;
 }
 
+#drinksbanner {
+    background-image: url(images/drinksheader.png);
+    height:250px;
+    width: 100%;
+}
+
+#sandwichbanner {
+    background-image: url(images/sandwichheader.png);
+    height:250px;
+    width: 100%;
+}
+
+#sweetsavorybanner {
+    background-image: url(images/sweetsavoryheader.png);
+    height:250px;
+    width: 100%;
+}
 ul {
     list-style: none;
     text-align: center;
@@ -254,6 +271,18 @@ li {
         background-image: url(images/specials_992.png);
         height:250px;
         width: 100%;
+    }
+
+    .content {
+        min-height: 395px;
+    }
+
+    #title.content {
+        min-height: 275px;
+    }
+
+    #items.content {
+        min-height: 235px;
     }
 }
 
