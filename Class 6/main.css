@@ -47,6 +47,11 @@ p.description {
     font-size: 12px;
 }
 
+p.taglines {
+    font-family: Lobster;
+    font-size: 20px;
+}
+
 h1 {
     font-family: Lobster;
     color: white;
@@ -174,6 +179,29 @@ li {
 
 .clearfix {
     clear: both;
+}
+
+a {
+    font-family: Lobster;
+}
+
+a:link {
+    text-decoration: none; 
+    color:#8c8c8c;
+}
+
+a:visited {
+    text-decoration: none; 
+    color:olivedrab;
+}
+
+a:hover {
+    color:#ffe100; 
+}
+
+a:active {
+    color: #8c8c8c; 
+    background-color: #ffe100;
 }
 
 /*************SMALL SCREENS********************/
