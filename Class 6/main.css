@@ -11,7 +11,7 @@
 
 #logo img {
     text-align: center;
-    width:100px;
+    width: 275px;
 }
 
 p {
@@ -110,7 +110,7 @@ nav.navbar li {
 .content {
     padding: 0px 0px;
     min-height: 250px;
-    border-bottom: 2px solid darkorchid;
+    border-bottom: 2px solid rgb(207, 51, 72);
     position: relative;
     margin-bottom: 10px;
 }
@@ -208,7 +208,7 @@ li {
 
     #logo img {
         text-align: center;
-        width:100px;
+        width:275px;
         float:left;
         margin-bottom: 25px;
 }
@@ -283,6 +283,10 @@ li {
 
     #items.content {
         min-height: 235px;
+    }
+
+    #about.content {
+        min-height: 425px;
     }
 }
 
