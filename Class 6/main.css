@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css?family=Germania+One');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700i,900');
+
 
 #logo {
     text-align: center
@@ -12,6 +12,14 @@
 #logo img {
     text-align: center;
     width:100px;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 400;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
 }
 
 h1 {
@@ -51,7 +59,7 @@ nav.navbar ul {
     font-family: Lobster;
     list-style: none;
     padding-left: 0;
-    margin: 0px auto;
+    margin: 15px auto;
     padding: 5px 0px;
     text-align: center;
 }
@@ -75,7 +83,7 @@ nav.navbar li {
 }
 
 .content {
-    padding: 0px 10px;
+    padding: 0px 0px;
     min-height: 250px;
     border-bottom: 2px solid darkorchid;
     position: relative;
@@ -94,6 +102,18 @@ nav.navbar li {
 
 .content .img-container {
     min-height: 160px;
+}
+
+#welcomebanner {
+    background-image: url(images/welcomebanner_768.png);
+    height:250px;
+    width: 100%;
+}
+
+#specials {
+    background-image: url(images/specials_768.png);
+    height:250px;
+    width: 100%;
 }
 
 ul {
@@ -139,6 +159,12 @@ li {
     .small-width-100 {
         width: 100%;
     }
+
+    #logo img {
+        text-align: center;
+        width:100px;
+        float:left;
+        margin-bottom: 25px;
 }
 
 /*************MEDIUM SCREENS*******************/
@@ -187,7 +213,18 @@ li {
     nav.navbar ul {
         text-align: center;
         float: right;
-    
+    }
+
+    #welcomebanner {
+        background-image: url(images/welcomebanner_992.png);
+        height:250px;
+        width: 100%;
+    }
+
+    #specials {
+        background-image: url(images/specials_992.png);
+        height:250px;
+        width: 100%;
     }
 }
 
