@@ -16,7 +16,7 @@
 
 p {
     font-family: Roboto;
-    font-size: 400;
+    font-style: 400;
     font-size: 18px;
     color: gray;
     text-align: center;
@@ -28,6 +28,23 @@ p.about {
     font-size: 18px;
     color: gray;
     text-align: left;
+}
+
+p.title {
+    font-family: Lobster;
+    font-size: 18px;
+}
+
+p.price {
+    font-family: Roboto;
+    font-style: 700i;
+    font-size: 12px;
+}
+
+p.description {
+    font-family: Roboto;
+    font-style: 400;
+    font-size: 12px;
 }
 
 h1 {
@@ -106,6 +123,10 @@ nav.navbar li {
 
 .content .abs-pos {
     position: absolute;
+}
+
+.content .abs-rel {
+    position: relative;
 }
 
 .content .img-container {
