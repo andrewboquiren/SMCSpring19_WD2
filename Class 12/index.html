@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <h1>Which car would you select?</h1>
+
+        <form action="" mehtod="POST">
+            <label for="carMake">Car Make:</label>
+            <select name="make" id="carMake">
+                <option value="audi">Audi</option>
+                <option value="bmw">BMW</option>
+                <option value="merc">Mercedes</option>
+                <option value="porsche">Porsche</option>
+            </select>
+
+            <label for="carModel">Model</label>
+            <select name="model" id="carModel"></select>
+
+        </form>
+    </main>
+
+<script>
+    var audiModels      = ["S3", "S5", "S7"];
+    var bmwModels       = ["3-Series", "4-Series", "5-Series", "7-Series"];
+    var mercModel       = ["A-Class", "C-Class", "E-Class", "S-Class"];
+    var proscheModels   = ["911", "Macan", "Panamera", "Cayanne"];
+
+    var makeDropdown= document.getElementById("carMake");
+    var modelDropdown = document.getElementById("carModel");
+    makeDropdown.addEventListener("change", function(){
+        console.log(this.value);
+
+        modelDropdown.innerHTML = "";
+        // <option value=" + text + ">Text</option>
+        //modelDropdown.innerHTML += '<option value="'+ bmwModels[0] +'">' + bmwModels[0] + '</option>';
+        //modelDropdown.innerHTML += '<option value="'+ bmwModels[1] +'">' + bmwModels[1] + '</option>';
+        //modelDropdown.innerHTML += '<option value="'+ bmwModels[2] +'">' + bmwModels[2] + '</option>';
+        //modelDropdown.innerHTML += '<option value="'+ bmwModels[3] +'">' + bmwModels[3] + '</option>';
+        
+        for(var i = 0; i < bmwModels.length; i ++){
+            modelDropdown.innerHTML += '<option value="'+ bmwModels[i] +'">' + bmwModels[i] + '</option>';
+        }
+    })
+</script>
+
+</body>
+
+</html>      
