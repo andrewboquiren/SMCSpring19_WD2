@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arrays 2</title>
+
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Link1</a>
+                </li>
+                <li>
+                    <a href="">Link1</a>
+                </li>
+                <li>
+                    <a href="">Link1</a>
+                    <ul>
+                        <li>Sublink1</li>
+                        <li>Sublink1</li>
+                        <li>Sublink1</li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Riddle me this? </h1>
+
+        <form action="" method="POST">
+            <label for="carMake">Why did the</label>
+            <select name="make" id="carMake">
+                <option value="audi">chicken</option>
+                <option value="bmw">fish</option>ß
+                <option value="merc">cow</option>
+                <option value="porsche">pig</option>
+            </select>
+            <label for"carMake">cross the road?</label>
+
+            <br>
+
+            <label for="carModel">Answer:</label>
+            <select name="model" id="carModel"></select>
+        </form>
+    </main>
+
+
+    <script>
+        var audiModels      = ["to get to the other side", "she wanted to strech her legs", "to avoid lame and outdated jokes"];
+        var bmwModels       = ["to get to the other tide", "for the halibut", "to tip the scales", "because it was out of it's element"];
+        var mercModels      = ["to get to the udder side", "to go to the moo-vies", "her mom said its pasture bedtime"];
+        var porscheModels   = ["to get to the other sty", "we'll never know, it got hit by a truck", "he got BOARed", "he got lost"];
+
+        var makeDropdown = document.getElementById("carMake");
+        var modelDropdown = document.getElementById("carModel");
+        makeDropdown.addEventListener("change", function(){
+            console.log(this.value);
+            modelDropdown.innerHTML = "";
+            
+            if(this.value === "audi"){
+                for(var i = 0; i < audiModels.length; i++){
+                    modelDropdown.innerHTML += '<option value="' + audiModels[i] + '">' + audiModels[i] + '</option>';
+                }  
+            } else if(this.value === 'bmw'){
+                for(var i = 0; i < bmwModels.length; i++){
+                    modelDropdown.innerHTML += '<option value="' + bmwModels[i] + '">' + bmwModels[i] + '</option>';
+                }
+            } else if(this.value === 'merc'){
+                for(var i = 0; i < mercModels.length; i++){
+                    modelDropdown.innerHTML += '<option value="' + mercModels[i] + '">' + mercModels[i] + '</option>';
+                }
+
+            } else if(this.value === 'porsche'){
+                for(var i = 0; i < porscheModels.length; i++){
+                    modelDropdown.innerHTML += '<option value="' + porscheModels[i] + '">' + porscheModels[i] + '</option>';
+                }
+            }
+
+
+
+            
+            //modelDropdown.innerHTML += '<option value="' + bmwModels[0] + '">' + bmwModels[0] + '</option>';
+            //modelDropdown.innerHTML += '<option value="' + bmwModels[1] + '">' + bmwModels[1] + '</option>';
+            //modelDropdown.innerHTML += '<option value="' + bmwModels[2] + '">' + bmwModels[2] + '</option>';
+            //modelDropdown.innerHTML += '<option value="' + bmwModels[3] + '">' + bmwModels[3] + '</option>';
+            // <option value=" + text + "> + Text + </option>
+            
+        });
+    </script>
+</body>
+</html>
