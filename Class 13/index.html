@@ -17,6 +17,15 @@
 <body>
     <h1 class="header">Hello World!</h1>
 
+    <button id="btn1">Append Things</button>
+    
+    <button id="btn2">Prepend Things</button>
+
+    <button id="btn3">Remove Add-ons</button>
+
+    <button id="btn4">Empty Container</button>
+
+
     <div class="container">
         I am child 1
     </div>
@@ -31,17 +40,37 @@
             $('.header').css('color', '#fefefe');
 
         //This added a container child to the container
-            $('.container').append('<div class="container-child">I am child 2</div>');
+            //$('.container').append('<div class="container-child">I am child 2</div>');
 
 
-            $('.container').prepend('<div class="container-child">I am child 3</div>');
+            //$('.container').prepend('<div class="container-child">I am child 3</div>');
 
          //this will add outside of the div
-            $('.container').after('<div class="addon">I am AFTER</div>');
-            $('.container').before('<div class="addon">I am BEFORE!!!</div>');
+           // $('.container').after('<div class="addon">I am AFTER</div>');
+            //$('.container').before('<div class="addon">I am BEFORE!!!</div>');
 
-            $('<div class="container-child">I am child 4</div>').appendTo('.container');
-            $('<div class="container-child">I am child 5</div>').prependTo('.container');
+            //$('<div class="container-child">I am child 4</div>').appendTo('.container');
+            //$('<div class="container-child">I am child 5</div>').prependTo('.container');
+
+            $('#btn1').click(function(){
+                $('.container').append('<div class="container-child">I am child 2</div>');
+                $('<div class="container-child">I am child 4</div>').appendTo('.container');
+                $('.container').after('<div class="addon">I am AFTER</div>');
+            })
+
+            $('#btn2').click(function(){
+                $('.container').prepend('<div class="container-child">I am child 3</div>');
+                $('.container').before('<div class="addon">I am BEFORE!!!</div>');
+                $('<div class="container-child">I am child 5</div>').prependTo('.container');
+            })
+
+            $('#btn3').click(function(){
+                $('.addon').remove();
+            })
+
+            $('#btn4').click(function(){
+                $('.container').empty();
+            })
         })
     </script>
 
