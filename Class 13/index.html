@@ -12,6 +12,19 @@
             height: 400px;
             background-color: azure;
         }
+
+        .blue-container {
+            background-color: lightskyblue;
+        }
+
+        .box {
+            width: 150px;
+            height: 150px;
+            background-color: chartreuse;
+            display: none;
+        }
+
+
     </style>
 
 <body>
@@ -25,10 +38,31 @@
 
     <button id="btn4">Empty Container</button>
 
+    <button id="colorToggle">Switch Color</button>
 
     <div class="container">
         I am child 1
     </div>
+
+    <form action="" method="POST">
+        <input type="text" name="Name" id="nyName">
+        <input type="email" name="Email" id="myEmail">
+        <input type="submit" value="Submit">
+    
+        <select id="FX" name="effects">
+            <option value="default"></option>
+            <option value="show">Show an element</option>
+            <option value="hide">Hide an element</option>
+            <option value="fadein">Fade in an element</option>
+            <option value="fadeout">Fade out an element</option>
+            <option value="slidedown">Slidedown an element</option>
+            <option value="slideup">Slideup an element</option>
+        </select>
+    
+    
+    </form>
+
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.js">
     </script>
@@ -39,9 +73,31 @@
             $('body').css('background-color', 'green');
             $('.header').css('color', '#fefefe');
 
+            $('#colorToggle').click(function(){
+                $('.container').toggleClass('blue-container');
+            })
+
+            $('#myName').blur(function(){
+                console.log( $('#myName').val() );
+
+            $('#FX').change(function(){
+                var selection = $(this).val();
+                if(selection === "show"){
+                    $('.box').show();
+                }
+                else if(selection == 'hide'){
+                    $('.box').hide();
+                }
+            })
+
+                if($('#myName').val() === "Andrew"){
+                    $('#myEmail').val('andrew.boquiren@gmail.com');
+                }
+            })
+
+
         //This added a container child to the container
             //$('.container').append('<div class="container-child">I am child 2</div>');
-
 
             //$('.container').prepend('<div class="container-child">I am child 3</div>');
 
