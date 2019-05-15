@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>j Query</title>
+
+    <style>
+        .container {
+            width: 500px;
+            height: 400px;
+            background-color: azure;
+        }
+    </style>
+
+<body>
+    <h1 class="header">Hello World!</h1>
+
+    <div class="container">
+        I am child 1
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js">
+    </script>
+
+    <script>
+        $(document).ready(function(){
+        //EXAMPLE: replacement for document.getElementsByClassName('header')[0] = $('.header')
+            $('body').css('background-color', 'green');
+            $('.header').css('color', '#fefefe');
+
+        //This added a container child to the container
+            $('.container').append('<div class="container-child">I am child 2</div>');
+
+
+            $('.container').prepend('<div class="container-child">I am child 3</div>');
+
+         //this will add outside of the div
+            $('.container').after('<div class="addon">I am AFTER</div>');
+            $('.container').before('<div class="addon">I am BEFORE!!!</div>');
+
+            $('<div class="container-child">I am child 4</div>').appendTo('.container');
+            $('<div class="container-child">I am child 5</div>').prependTo('.container');
+        })
+    </script>
+
+</body>
+
+</html>      
