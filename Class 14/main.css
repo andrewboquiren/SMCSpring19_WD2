@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    background-color: green;
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 700px;
+}
+
+li {
+    margin: 5px 10px;
+    background-color: violet;
+}
+
+li#home {
+    order: 0;
+}
+
+
+@media (min-width: 768px) {
+    ul {
+        flex-direction: row;
+    }
+
+    li#home {
+        order: 1;
+        flex-grow: 2;
+    }
+
+    li:nth-child(2) {
+        order: 2;
+    }
+
+    li:nth-child(1) {
+        order:3;
+    }
+}
