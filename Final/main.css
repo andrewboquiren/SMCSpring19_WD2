@@ -1,0 +1,350 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,900&display=swap');
+
+
+#logo {
+    text-align: center
+}
+
+#logo img {
+    text-align: center;
+    width: 275px;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+    font-style: 400;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+}
+
+p.about {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 400;
+    font-size: 18px;
+    color: gray;
+    text-align: left;
+}
+
+p.title {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+}
+
+p.price {
+    font-family: 'Source Code Pro', monospace;
+    font-style: 700i;
+    font-size: 12px;
+}
+
+p.description {
+    font-family: 'Source Code Pro', monospace;
+    font-style: 400;
+    font-size: 12px;
+}
+
+p.taglines {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    line-height: 1;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    line-height: 1;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+}
+
+h3 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: .25;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+nav.navbar ul {
+    font-family: 'Source Code Pro', monospace;
+    list-style: none;
+    padding-left: 0;
+    margin: 15px auto;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+nav.navbar li {
+    display: inline-block;
+    border-bottom: 4px solid whitesmoke;
+    padding: 0 10px 0 5px;
+}
+
+.container {
+    margin: 0px auto;
+    /* background-color: lemonchiffon; */
+}
+
+.floater-section {
+    float: left;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 0px 0px;
+    min-height: 250px;
+    border-bottom: 2px solid rgb(207, 51, 72);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.content img {
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.content .abs-pos {
+    position: absolute;
+}
+
+.content .abs-rel {
+    position: relative;
+}
+
+.content .img-container {
+    min-height: 160px;
+}
+
+#welcomebanner {
+    background-image: url(images/welcomebanner_768.png);
+    height:250px;
+    width: 100%;
+}
+
+#specials {
+    background-image: url(images/specials_768.png);
+    height:250px;
+    width: 100%;
+}
+
+#drinksbanner {
+    background-image: url(images/drinksheader.png);
+    height:250px;
+    width: 100%;
+}
+
+#sandwichbanner {
+    background-image: url(images/sandwichheader.png);
+    height:250px;
+    width: 100%;
+}
+
+#sweetsavorybanner {
+    background-image: url(images/sweetsavoryheader.png);
+    height:250px;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 20px 5px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+a {
+    font-family: 'Source Code Pro', monospace;
+}
+
+a:link {
+    text-decoration: none; 
+    color:#8c8c8c;
+}
+
+a:visited {
+    text-decoration: none; 
+    color:olivedrab;
+}
+
+a:hover {
+    color:#ffe100; 
+}
+
+a:active {
+    color: #8c8c8c; 
+    background-color: #ffe100;
+}
+
+/*************SMALL SCREENS********************/
+@media (min-width: 450px){
+    .container {
+        width: 440px;
+    }
+
+    .small-width-25 {
+        width: 25%;
+    }
+    
+    .small-width-33 {
+        width: 33.3333%;
+    }
+    
+    .small-width-50 {
+        width: 50%;
+    }
+
+    .small-width-66 {
+        width:66.6666%;
+    }
+
+    .small-width-75 {
+        width: 75%;
+    }
+
+    .small-width-100 {
+        width: 100%;
+    }
+
+    #logo img {
+        text-align: center;
+        width:275px;
+        float:left;
+        margin-bottom: 25px;
+}
+
+/*************MEDIUM SCREENS*******************/
+@media (min-width: 768px){
+    .container {
+        width: 760px;
+    }
+
+    .medium-width-25 {
+        width: 25%;
+    }
+    
+    .medium-width-33 {
+        width: 33.3333%;
+    }
+
+    .medium-width-50 {
+        width: 50%;
+    }
+
+
+    .medium-width-66 {
+        width:66.6666%;
+    }
+
+    .medium-width-75 {
+        width: 75%;
+    }
+    
+    .medium-width-100 {
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 100px;
+    }
+
+    h3 {
+        margin-top: 65px;
+    }
+
+    #logo {
+        text-align: left;
+    }
+    
+    nav.navbar ul {
+        text-align: center;
+        float: right;
+    }
+
+    #welcomebanner {
+        background-image: url(images/welcomebanner_992.png);
+        height:250px;
+        width: 100%;
+    }
+
+    #specials {
+        background-image: url(images/specials_992.png);
+        height:250px;
+        width: 100%;
+    }
+
+    .content {
+        min-height: 395px;
+    }
+
+    #title.content {
+        min-height: 275px;
+    }
+
+    #items.content {
+        min-height: 235px;
+    }
+
+    #about.content {
+        min-height: 425px;
+    }
+}
+
+/*************LARGE SCREENS*******************/
+@media (min-width: 992px){
+    .container {
+        width: 960px;
+    }
+
+    .large-width-25 {
+        width: 25%;
+    }
+    
+    .large-width-33 {
+        width: 33.33333%;
+    }
+
+    .large-width-50 {
+        width: 50%;
+    }
+
+
+    .large-width-66 {
+        width:66.6666%;
+    }
+
+    .large-width-75 {
+        width: 75%;
+    }
+    
+    .large-width-100 {
+        width: 100%;
+    }
+}
