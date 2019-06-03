@@ -19,6 +19,19 @@ ul {
 li {
     display: inline-block;
     margin: 20px 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    padding: 5px;
+    line-height: 20px;
+    color: #666666;
+}
+
+p.bodytitle {
+    font-weight: 700;
+    margin-top: 10px;
 }
 
 p#tagline {
@@ -40,9 +53,26 @@ h1 {
     color: white;    
 }
 
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #ffffff; 
+    line-height: 40px;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+
+h2.ttlHdr2b {
+    padding-top: 68px;
+    font-weight: 400;
+    width: 345px;
+}
+
 a {
-    font-family: 'Oswald', sans-serif, regular;
-    font-size: 10px;
+    font-family: 'Oswald', sans-serif,;
+    font-size: 14px;
 }
 
 a:link {
@@ -61,7 +91,7 @@ a:hover {
 
 .container {
     margin: 0px auto;
-    background-color: lemonchiffon;
+    /*background-color: lemonchiffon; */
 }
 
 .floater-section {
@@ -105,7 +135,37 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+#businessSpotlight {
+    background-image: url(images/maaminternational\ food.png);
+    background-size: cover;
+    position: center;
+    width: 100%;
+    height: 325px;
+}
 
+#maintainsustain {
+    background-color: #999999;
+    background-size: cover;
+    position: center;
+    width: 100%;
+    height: 325px;
+}
+
+#localevents {
+    background-color: #006666;
+    background-size: cover;
+    position: center;
+    width: 100%;
+    height: 325px;
+}
+
+#donate {
+    background-color: #339999;
+    background-size: cover;
+    position: center;
+    width: 100%;
+    height: 325px;
+}
 /*************SMALL SCREENS********************/
 @media (min-width: 375px){
     .container {
@@ -167,7 +227,11 @@ a:hover {
         left:40%;
         font-size: 65px;
     }
-        
+     
+    .ttlHdr2a {
+        top:10%;
+        left:10%;
+    }
 }
 
 /*************MEDIUM SCREENS*******************/
