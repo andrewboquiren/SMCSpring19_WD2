@@ -3,10 +3,17 @@
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700&display=swap');
 
+#logo {
+    width: 450px;
+    padding-top: 50px;
+    padding-left: 25px;
+}
 
 ul {
     list-style: none;
     text-align: center;
+    margin:0px;
+    padding:0px;
 }
 
 li {
@@ -14,12 +21,28 @@ li {
     margin: 20px 5px;
 }
 
+p#tagline {
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-small;
+    font-style: normal;
+    color: #339999;
+    width: 300px;
+    margin-top: initial;
+}
+
 .clearfix {
     clear: both;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: white;    
+}
+
 a {
     font-family: 'Oswald', sans-serif, regular;
+    font-size: 10px;
 }
 
 a:link {
@@ -35,14 +58,51 @@ a:visited {
 a:hover {
     color:#cc3333; 
 }
- 
+
+.container {
+    margin: 0px auto;
+    background-color: lemonchiffon;
+}
+
+.floater-section {
+    float: left;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 0px 0px;
+    min-height: 250px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.content img {
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.content .abs-pos {
+    position: absolute;
+}
+
+.content .abs-rel {
+    position: relative;
+}
+
+.content .img-container {
+    min-height: 160px;
+}
+
 #welcomebanner {
     background-image: url("images/welcomebanner_small.jpg");
     background-size: cover;
     position: center;
     width: 100%;
-    height: 450px;
-
+    height: 325px;
+    background-repeat: no-repeat;
 }
 
 
@@ -78,14 +138,42 @@ a:hover {
 
     #logo {
         width: 225px;
-        padding-top: 15;
-        padding-left: 15;
+        padding-top: 10px;
+        padding-left: 15px;
+        margin: 0px auto;
     }
+
+    li {
+        display: inline-block;
+        margin: 10px 5px;
+    }
+
+    #navbar {
+        height: 50px;
+    }
+
+    #welcomebanner {
+        background-position: 0px -144px;
+    }
+    
+    #navbar ul {
+        float: none;
+        margin-right:0px;
+        margin-top: 0px;
+    }
+
+    h1 {
+        top:56%;
+        left:40%;
+        font-size: 65px;
+    }
+        
+}
 
 /*************MEDIUM SCREENS*******************/
 @media (min-width: 768px){
     .container {
-        width: 760px;
+        width: 768px;
     }
 
     .medium-width-25 {
@@ -100,7 +188,6 @@ a:hover {
         width: 50%;
     }
 
-
     .medium-width-66 {
         width:66.6666%;
     }
@@ -112,7 +199,23 @@ a:hover {
     .medium-width-100 {
         width: 100%;
     }
-    
+
+    #welcomebanner {
+        background-position: 0px -415px;
+    }
+
+    #logo {
+        float: left;
+        margin: 10px 10px 25px 10px;
+
+    }
+
+    #navbar ul {
+        float: right;
+        margin-right:25px;
+        margin-top: 10px;
+    }
+}
     
 
 /*************LARGE SCREENS*******************/
@@ -144,5 +247,9 @@ a:hover {
     
     .large-width-100 {
         width: 100%;
+    }
+
+    #welcomebanner {
+        background-position: 0px -560px;
     }
 }
