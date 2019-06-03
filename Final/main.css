@@ -36,13 +36,23 @@ p.bodytitle {
 
 p#tagline {
     font-family: 'Oswald', sans-serif;
-    font-size: xx-small;
+    font-size: x-small;
     font-style: normal;
     color: #339999;
     width: 300px;
     margin-top: initial;
+    text-align: center;
 }
 
+p.address {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    padding-left: 5px;
+    line-height: 20px;
+    color: #666666;
+    clear: both;
+    width:200px;
+}
 .clearfix {
     clear: both;
 }
@@ -68,6 +78,22 @@ h2.ttlHdr2b {
     padding-top: 68px;
     font-weight: 400;
     width: 345px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #ffffff; 
+    line-height: 35px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+h3.ttlHdr2c {
+    padding-top: 68px;
+    font-weight: 100;
+    width: 350px;
 }
 
 a {
@@ -98,14 +124,14 @@ a:hover {
     float: left;
     width: 100%;
     min-height: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .content {
     padding: 0px 0px;
     min-height: 250px;
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .content img {
@@ -133,6 +159,7 @@ a:hover {
     width: 100%;
     height: 325px;
     background-repeat: no-repeat;
+    margin-bottom: 10px;
 }
 
 #businessSpotlight {
@@ -141,6 +168,7 @@ a:hover {
     position: center;
     width: 100%;
     height: 325px;
+    margin-bottom: 10px;
 }
 
 #maintainsustain {
@@ -166,6 +194,47 @@ a:hover {
     width: 100%;
     height: 325px;
 }
+
+.link {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    background-color: #66ffcc;
+    width: 150px;
+    height: 30px;   
+    text-align: center; 
+    float: right;
+    clear: both;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.content #title .helpfulLinks {
+    margin-bottom: 0px:
+    
+}
+
+footer.socialmedia ul {
+    float:right;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
+#logoFooter {
+    width:150px;
+    float:left;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+p#contact, p#contact a {
+    line-height: 12px;
+    color: #339999; 
+    font-size:x-small;
+    width:250px;
+    margin-top: 0px;
+}
+
+
 /*************SMALL SCREENS********************/
 @media (min-width: 375px){
     .container {
@@ -197,7 +266,7 @@ a:hover {
     }
 
     #logo {
-        width: 225px;
+        width: 320px;
         padding-top: 10px;
         padding-left: 15px;
         margin: 0px auto;
@@ -231,6 +300,10 @@ a:hover {
     .ttlHdr2a {
         top:10%;
         left:10%;
+    }
+
+    .link {
+        float: left;
     }
 }
 
@@ -279,6 +352,12 @@ a:hover {
         margin-right:25px;
         margin-top: 10px;
     }
+
+    h3.ttlHdr2c {
+        padding-top: 68px;
+        font-weight: 100;
+        width: 250px;
+    }
 }
     
 
@@ -315,5 +394,9 @@ a:hover {
 
     #welcomebanner {
         background-position: 0px -560px;
+    }
+
+    h1 {
+        left:77%;
     }
 }
