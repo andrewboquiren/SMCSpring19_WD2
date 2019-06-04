@@ -643,6 +643,16 @@ input {
         line-height: 63px
     }
     
+    #events {
+        background-position: 0px -75px;    
+    }
+
+    #ttlHdrevents.abs-pos {
+        top:58%;
+        left:72%;
+        font-size: 65px;
+        line-height: 63px
+    }
 }
     
 
@@ -717,6 +727,17 @@ input {
     }
 
     #ttlHdrdonate.abs-pos {
+        top:58%;
+        left:78%;
+        font-size: 65px;
+        line-height: 63px
+    }
+
+    #events {
+        background-position: 0px -125px;    
+    }
+
+    #ttlHdrevents.abs-pos {
         top:58%;
         left:78%;
         font-size: 65px;
