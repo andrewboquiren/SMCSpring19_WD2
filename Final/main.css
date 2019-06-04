@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,700&display=swap');
 
 #logo {
     width: 450px;
@@ -31,7 +31,7 @@ p {
 
 p#boardOfdirectors.body {
     line-height: 30px;
-    font-weight: 100
+    font-weight: 200
 }
 
 p.bodytitle {
@@ -55,7 +55,7 @@ p#tagline {
 
 p#welcome {
     font-family: 'Oswald', sans-serif;
-    font-weight: 100;    
+    font-weight: 200;    
 }
 p.address {
     font-family: 'Oswald', sans-serif;
@@ -113,7 +113,7 @@ h3 {
 
 h3.ttlHdr2c {
     padding-top: 68px;
-    font-weight: 100;
+    font-weight: 200;
     width: 350px;
 }
 
@@ -393,7 +393,7 @@ ol.businesses p {
     font-family: 'Oswald', sans-serif;
     padding: 0px;
     margin: 0px;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 li p.name {
@@ -410,7 +410,7 @@ ol.businesses {
 }
 
 ol.businesses a {
-      font-weight: 100;
+      font-weight: 200;
 }
 
   ol.businesses li {
@@ -655,7 +655,7 @@ input {
 
     h3.ttlHdr2c {
         padding-top: 68px;
-        font-weight: 100;
+        font-weight: 200;
         width: 250px;
     }
 
