@@ -40,7 +40,7 @@
         <div class="floater-section medium-width-100">  
             <div class="content" id="title">
                 <div class="image-container" id="donateBanner">
-                    <h1 class="abs-pos" id="ttlHdrabout">DONATE</h1>
+                    <h1 class="abs-pos" id="ttlHdrdonate">DONATE</h1>
                 </div>
             </div>
         </div>
@@ -73,12 +73,22 @@
                 Address:<br>
                 <input type="text" name="address">
                 <br>
+                City:<br>
+                <input type="text" name="city">
+                <br>
+                State:<br>
+                <input type="text" name="state">
+                <br>
+                Zip Code:<br>
+                <input type="text" name="zipcode">
+                <br>
+                email address:<br>
+                <input type="text" name="email">
+                <br>
                 Phone Number:<br>
                 <input type="text" name="address">
                 <br>
-                Address:<br>
-                <input type="text" name="address">
-                <br>
+
                 <p>Select an amount</p>
                 <input type="radio" name="amount" value="$50"> $50<br>
                 <input type="radio" name="amount" value="$100"> $100<br>
@@ -87,6 +97,7 @@
                 Other Amount:<br>
                 <input type="text" name="otherAmount">
                 <br>
+                
                 Credit Card Number:<br>
                 <input type="text" name="creditCardNumber">
                 <br>
@@ -121,16 +132,7 @@
         </div>
 
         <script>
-                function myFunction() {
-                    alert("Thank you for you donation");
-                }
 
-                $( "a" ).click(function( event ) {
-                  event.preventDefault();
-                  $( "<div>" )
-                    .append( "default " + event.type + " prevented" )
-                    .appendTo( "#log" );
-                });
         </script>
         
         </body>	
