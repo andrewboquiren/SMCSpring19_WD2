@@ -241,6 +241,25 @@ a:hover {
     margin-top: 10px;
 }
 
+#events {
+    background-image: url(images/events.png);
+    background-size: cover;
+    position: center;
+    width: 100%;
+    height: 325px;
+    margin-top: 10px;
+    background-position: -100px 0px;
+}
+
+#farmersMarket {
+    background-image: url(images/farmermarketcover.png);
+    background-size: cover;
+    position: center;
+    width: 100%;
+    height: 325px;
+    margin-top: 10px;
+    background-position: 0px 0px;
+}
 #maintainsustain {
     background-color: #999999;
     background-size: cover;
@@ -333,64 +352,94 @@ p#contact, p#contact a {
     margin-top: 10px;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-  }
+}
   
-  .active, .accordion:hover {
+.active, .accordion:hover {
     background-color: #ccc;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-  }
+}
   
-  .accordion:after {
+.accordion:after {
     content: '\002B';
     color: #777;
     font-weight: bold;
     float: right;
     margin-left: 5px;
-  }
+}
 
-  .panel {
+.panel {
     background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-  }
+}
 
-  ol.businesses p {
+ol.businesses p {
     font-family: 'Oswald', sans-serif;
     padding: 0px;
     margin: 0px;
     font-weight: 100;
-  }
+}
 
-  li p.name {
+li p.name {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     margin: 0px;
     padding: 0px;
-  }
+}
 
-  ol.businesses {
+ol.businesses {
       margin-bottom: 5px;
       padding: 0px;
       text-align: left;
-  }
+}
 
-  ol.businesses a {
+ol.businesses a {
       font-weight: 100;
-  }
+}
 
   ol.businesses li {
       width: 300px;
       height: 115px;
-  }
+}
 
-  form {
+form {
       font-family: 'Oswald', sans-serif;
       font-weight: 300;
       font-size: 18px;
       margin-top: 10px;
-  }
+}
+
+#pic1.content {
+    background-image:url(images/bowlmor.png);
+    background-size: cover;
+}
+
+#pic2.content {
+    background-image:url(images/bowlmor.png);
+    background-size: cover;
+}
+
+#pic3.content {
+    background-image:url(images/bowlmor.png);
+    background-size: cover;
+}
+
+#pic4.content {
+    background-image:url(images/bowlmor.png);
+    background-size: cover;
+}
+
+#pic5.content {
+    background-image:url(images/bowlmor.png);
+    background-size: cover;
+}
+
+#pic6.content {
+    background-image:url(images/bowlmor.png);
+    background-size: cover;
+}
 
   /*
 input {
@@ -489,6 +538,13 @@ input {
     }
 
     #ttlHdrdonate.abs-pos {
+        top:58%;
+        left:45%;
+        font-size: 65px;
+        line-height: 63px
+    }
+
+    #ttlHdrevents.abs-pos {
         top:58%;
         left:45%;
         font-size: 65px;
