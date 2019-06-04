@@ -50,7 +50,7 @@
             <div class="content" id="title">
                 <div class="image-container" id="mission">
                     <h2 class="abs-pos" class="ttlHdr2a">DONATE</h2><br><h2 class="ttlHdr2mission">
-                        To make a gift of especially : to contribute to a public or charitable cause<br>
+                        <italic>To make a gift of especially : to contribute to a public or charitable cause<br></italic>
                         Contribute to the prosperity of your neighborhood. Donate.</h2>
                 </div>
             </div>
@@ -62,7 +62,7 @@
 <!--donation form-->
 
         <div class="clearfix"></div>
-
+            
             <form action="/action_page.php">
                 First name:<br>
                 <input type="text" name="firstname">
@@ -82,13 +82,14 @@
                 Zip Code:<br>
                 <input type="text" name="zipcode">
                 <br>
+                <hr>
                 email address:<br>
                 <input type="text" name="email">
                 <br>
                 Phone Number:<br>
                 <input type="text" name="address">
                 <br>
-
+                <hr>
                 <p>Select an amount</p>
                 <input type="radio" name="amount" value="$50"> $50<br>
                 <input type="radio" name="amount" value="$100"> $100<br>
@@ -97,7 +98,7 @@
                 Other Amount:<br>
                 <input type="text" name="otherAmount">
                 <br>
-
+                <hr>
                 Credit Card Number:<br>
                 <input type="text" name="creditCardNumber">
                 <br>
@@ -110,8 +111,8 @@
                 CVV Number:<br>
                 <input type="text" name="creditCardCVVNumber">
                 <br>
-                <input type="submit">
-
+                <hr>
+                <button onclick="myFunction()">SUBMIT</button>
             </form>
 
         <footer class="socialmedia"> 
@@ -132,7 +133,11 @@
         </div>
 
         <script>
+            function myFunction() {
+            alert("Thank You For Your Donation");
+            }
 
+            $('form').submit(function(event){ event.preventDefault(); });
         </script>
         
         </body>	
