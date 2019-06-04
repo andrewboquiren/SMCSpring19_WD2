@@ -156,7 +156,7 @@ a:hover {
     min-height: 160px;
 }
 
-#welcomebanner {
+#welcomebanner, #about {
     background-image: url("images/welcomebanner_small.jpg");
     background-size: cover;
     position: center;
@@ -166,6 +166,9 @@ a:hover {
     margin-bottom: 0px;
 }
 
+#about {
+    background-image: url("images/about.png");
+}
 #businessdirectory {
     background-image: url("images/pico\ street\ view.png");
     background-size: cover;
@@ -317,6 +320,7 @@ p#contact, p#contact a {
         background-position: 0px -144px;
     }
     
+
     #navbar ul {
         float: none;
         margin-right:0px;
