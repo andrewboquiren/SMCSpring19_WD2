@@ -29,6 +29,11 @@ p {
     color: #666666;
 }
 
+p#boardOfdirectors.body {
+    line-height: 30px;
+    font-weight: 100
+}
+
 p.bodytitle {
     font-weight: 700;
     margin-top: 10px;
@@ -84,6 +89,14 @@ h2.ttlHdr2b {
     width: 345px;
 }
 
+h2.ttlHdr2mission {
+    padding-top: 68px;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    width: 345px;
+}
+
 h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
@@ -112,7 +125,7 @@ a:link {
 
 a:visited {
     text-decoration: none; 
-    color:#66ffcc;
+    color:#339999;
 }
 
 a:hover {
@@ -168,7 +181,9 @@ a:hover {
 
 #about {
     background-image: url("images/about.png");
+    margin-bottom: 10px;
 }
+
 #businessdirectory {
     background-image: url("images/pico\ street\ view.png");
     background-size: cover;
@@ -194,7 +209,7 @@ a:hover {
     position: center;
     width: 100%;
     height: 325px;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #businessSpotlight3 {
@@ -203,7 +218,16 @@ a:hover {
     position: center;
     width: 100%;
     height: 325px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#boardOfd {
+    background-image: url(images/board.jpg);
+    background-size: cover;
+    position: center;
+    width: 100%;
+    height: 325px;
+    margin-top: 10px;
 }
 
 #maintainsustain {
@@ -230,6 +254,21 @@ a:hover {
     height: 325px;
 }
 
+#mission {
+    background-color: #006666;
+    background-size: cover;
+    position: center;
+    width: 100%;
+    height: 325px;
+}
+
+#meeting {
+    background-color: #339999;
+    background-size: cover;
+    position: center;
+    width: 100%;
+    height: 325px;
+}
 .link {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
@@ -269,7 +308,81 @@ p#contact, p#contact a {
     margin-top: 0px;
 }
 
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-top: 10px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
 
+  .panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  ol.businesses p {
+    font-family: 'Oswald', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 100;
+  }
+
+  li p.name {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  ol.businesses {
+      margin-bottom: 5px;
+      padding: 0px;
+      text-align: left;
+  }
+
+  ol.businesses a {
+      font-weight: 100;
+  }
+
+  ol.businesses li {
+      width: 300px;
+      height: 115px;
+  }
+
+  form {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+      margin-top: 10px;
+  }
+
+  /*
+input {
+    width: 200px;
+  }
+*/
+  
 /*************SMALL SCREENS********************/
 @media (min-width: 375px){
     .container {
@@ -329,12 +442,20 @@ p#contact, p#contact a {
 
     h1 {
         top:56%;
-        left:40%;
+        left:33%;
         font-size: 65px;
     }
+
     #ttlHdrbd.abs-pos {
         top:40%;
-        left:25%;
+        left:20%;
+        font-size: 65px;
+        line-height: 63px
+    }
+
+    #ttlHdrabout.abs-pos {
+        top:58%;
+        left:48%;
         font-size: 65px;
         line-height: 63px
     }
@@ -347,6 +468,8 @@ p#contact, p#contact a {
     .link {
         float: left;
     }
+
+
 }
 
 /*************MEDIUM SCREENS*******************/

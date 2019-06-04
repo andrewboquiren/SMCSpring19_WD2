@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>PIO :: Pico Improvment Organization About</title>
+	<meta name="viewport" content="width=device-width, initial scale=1">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+    <div class="container">	
+        
+        <header>
+            <div id="logo">
+                <a href="index.html"><img src="images/logo.svg" alt="Pico Improvement Organization logo"></a>
+                <p id="tagline">PROMOTING & IMPROVING THE PICO BLVD. DISTRICT IN SANTA MONICA</p>
+            </div>
+            <div id="navbar">
+                <ul>
+                    <li><a href="directory.html">Directory</a>
+                    </li>
+                    <li><a href="resources.html">Resources</a>
+                    </li>
+                    <li><a href="events.html">Events</a>
+                    </li>
+                    <li><a href="donate.html">Donate</a>
+                    </li>
+                    <li><a href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+
+        </header>
+
+        <div class="clearfix"></div>
+
+<!--welcome banner-->
+        <div class="floater-section medium-width-100">  
+            <div class="content" id="title">
+                <div class="image-container" id="about">
+                    <h1 class="abs-pos" id="ttlHdrabout">DONATE</h1>
+                </div>
+            </div>
+        </div>
+
+<!--mission and vision-->
+        <div class="floater-section medium-width-100">  
+            <div class="content" id="title">
+                <div class="image-container" id="mission">
+                    <h2 class="abs-pos" class="ttlHdr2a">DONATE</h2><br><h2 class="ttlHdr2mission">
+                        To make a gift of especially : to contribute to a public or charitable cause<br>
+                        Contribute to the prosperity of your neighborhood. Donate.</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="clearfix"></div>
+
+<!--donation form-->
+
+        <div class="clearfix"></div>
+
+            <form action="/action_page.php">
+                First name:<br>
+                <input type="text" name="firstname">
+                <br>
+                Last name:<br>
+                <input type="text" name="lastname">
+                <br>
+                Address:<br>
+                <input type="text" name="address">
+                <br>
+                Phone Number:<br>
+                <input type="text" name="address">
+                <br>
+                Address:<br>
+                <input type="text" name="address">
+                <br>
+                <p>Select an amount</p>
+                <input type="radio" name="amount" value="$50"> $50<br>
+                <input type="radio" name="amount" value="$100"> $100<br>
+                <input type="radio" name="amount" value="$125"> $125<br> 
+                <input type="radio" name="amount" value="other"> other<br> 
+                Other Amount:<br>
+                <input type="text" name="otherAmount">
+                <br>
+                Credit Card Number:<br>
+                <input type="text" name="creditCardNumber">
+                <br>
+                Credit Card Type:<br>
+                <input type="text" name="creditCardType">
+                <br>
+                Expiration Date:<br>
+                <input type="text" name="creditCardExp">
+                <br>
+                CVV Number:<br>
+                <input type="text" name="creditCardCVVNumber">
+                <br>
+                <input type="submit">
+
+            </form>
+
+        <footer class="socialmedia"> 
+            <div id="logoFooter">
+                <a href="index.html"><img src="images/logo.svg" alt="Pico Improvement Organization logo"></a>
+                <p id="contact">3019 Pico Blvd #4 Santa Monica, CA 90405<br>
+                        <a href="mailto:pio.santamonica@gmail.com" >pio.santamonica@gmail.com</a>
+            </div>
+
+            <ul>
+                <li><a href="#"><img src="images/facebook-logo_318-49940.jpg" alt="facebook link" width="30" height="30"></a>
+                </li>
+                <li><a href="#"><img src="images/twitter.jpg" alt="twitter link" width="30" height="30"></a>
+                </li>
+                <li><a href="#"><img src="images/instagram.png" alt="instagram link" width="30" height="30"></a>
+                </li>
+            </ul>	
+        </footer>
+
+        </div>
+
+        <script>
+                $( "a" ).click(function( event ) {
+                  event.preventDefault();
+                  $( "<div>" )
+                    .append( "default " + event.type + " prevented" )
+                    .appendTo( "#log" );
+                });
+        </script>
+        
+        </body>	
+
+        </html>

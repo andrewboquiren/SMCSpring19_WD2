@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<title>PIO :: Pico Improvment Organization Directory and Blog</title>
 	<meta name="viewport" content="width=device-width, initial scale=1">
-	<link href="main.css" rel="stylesheet" type="text/css">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
@@ -74,11 +75,8 @@
                 <p class="address">2308 Pico Blvd.<br>
                     Santa Monica, CA 90405<br>
                     (310) 463-2992</p>
-                <div class="link">
-                    <a href="directory.html">LEARN MORE</a>
-                </div>
         </div>
-            
+        
         <div class="clearfix">
 
 <!--business 2-->
@@ -97,15 +95,12 @@
                         Bowlero Corporation was founded in 2013 as Bowlmor AMF following the successful acquisition of AMF Bowling Worldwide by Bowlmor Lanes. 
                         Starting as a single bowling alley established in Greenwich Village, New York, in 1938, Bowlmor Lanes revolutionized the sport in the late 1990s and 
                         early 2000s with the concept of high-end, event-centric bowling. Bowlmor AMF acquired the Brunswick Corporation’s bowling center business in 2014 and solidified 
-                        its reputation as the worldwide leader in bowling entertainment. In 2018, Bowlmor AMF officially became Bowlero Corporation, beginning a new chapter and signaling a new direction in the company’s continued growth.
-                        Exceptional Service. Incredible Value. Limitless Potential.  
+                        its reputation as the worldwide leader in bowling entertainment.
                 </p>
                 <p class="address">234 Pico Blvd. <br>
                     Santa Monica, CA 90405<br>
                     (310) 399-7731</p>
-                <div class="link">
-                    <a href="directory.html">LEARN MORE</a>
-                </div>
+
         </div>
 
         <div class="clearfix">
@@ -115,7 +110,7 @@
             <div class="floater-section medium-width-33">  
                 <div class="content" id="title">
                     <div class="image-container" id="businessSpotlight3">
-                        <h2 class="abs-pos" class="ttlHdr2a">BUSINESS SPOTLIGHT:</h2><br><h2 class="ttlHdr2b">UNURBAN COFFEE HOUSE</h2>
+                        <h2 class="abs-pos" class="ttlHdr2a">BUSINESS SPOTLIGHT:</h2><br><h2 class="ttlHdr2b">UNURBAN<br> COFFEE<br> HOUSE</h2>
                     </div>
                 </div>
             </div>
@@ -131,12 +126,39 @@
                     <p class="address">3301 Pico Blvd.<br>
                             Santa Monica, CA 90405<br>
                             (310) 315-0056</p>
-                    <div class="link">
-                        <a href="directory.html">LEARN MORE</a>
-                    </div>
+
             </div>
     
             <div class="clearfix">
+
+<!--button-->
+            <button class="accordion">BUSINESS DIRECTORY</button>
+                <div class="panel">
+                    <ol class="businesses">
+                        <li><p class="name">A & R Textbooks</p><p>1703 Pico Blvd. <br>Santa Monica, CA 90405</p><p>(310) 314-4361</p><a href="www.directtextbook.com/">www.directtextbook.com</a>
+                        </li>
+                        <li><p class="name">A A A Under Car Parts Inc.</p><p>828 Pico Blvd. #5</p><p>Santa Monica, CA 90405</p><p>(310)314-4454</p><a href="www.aaabrake.net/">www.aaabrake.net/</a>
+                        </li>
+                        <li><p class="name">A B M Parking Services</p><p>1 Pico Blvd.</p><p>Santa Monica, CA 90405</p><p>(213) 624-6065</p><a href="www.aaabrake.net/">www.aaabrake.net/</a>
+                        </li>   
+                        <li><p class="name">A P P A Real Estate LLC</p><p>3301 Pico Blvd, Suite A</p><p>Santa Monica, CA 90405</p><p>424.744.8371</p><a href="amarzwell@apparealestate.com">amarzwell@apparealestate.com</a>
+                        </li>
+                        <li><p class="name">A T & T Mobility</p><p>2714 Pico Blvd #201</p><p>Santa Monica, CA 90405</p>
+                        </li> 
+                        <li><p class="name">Aaron Samuel Ward D C</p><p216 Pico Blvd. #1></p><p>Santa Monica, CA 90405</p><p>(310) 399-2220</p><a href="www.oceanparkchiropractic.net/">www.oceanparkchiropractic.net/</a>
+                        </li> 
+                        <li><p class="name">Ace Parking Management Inc.</p><p>530 Pico Blvd.</p><p>Santa Monica, CA 90405</p><p>(310) 399-9344</p><a href="www.aceparking.com">www.aceparking.com</a>
+                        </li> 
+                        <li><p class="name">Action Income Tax Services</p><p>2018 Pico Blvd</p><p>Santa Monica, CA 90405</p><p310.452.1210>
+                        </li> 
+                        <li><p class="name">Advantage Real Estate, Inc.</p><p>1021 Pico Blvd.</p><p>Santa Monica, CA 90405</p><p(310) 450-4488></p><a href="www.advantage-realestate.com">www.advantage-realestate.com</a>
+                        </li>   
+                        <li><p class="name">Ajar Inc</p><p>2621 Pico Blvd. #B</p><p>Santa Monica, CA 90405</p><p>(310) 453-6050</p>
+                        </li>  
+                    </ol>
+                </div>
+
+        <div class="clearfix">   
 
 	    <footer class="socialmedia"> 
             <div id="logoFooter">
@@ -157,6 +179,29 @@
 
     </div>
 
+
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+        
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+            });
+        }
+        
+        
+    </script>    
 </body>	
 	
 </html>
