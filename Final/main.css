@@ -462,32 +462,32 @@ form {
 }
 
 #pic1.content {
-    background-image:url(images/bowl1.png);
+    background-image:url(images/farmers1.jpg);
     background-size: cover;
 }
 
 #pic2.content {
-    background-image:url(images/bowl2.png);
+    background-image:url(images/farmers2.jpg);
     background-size: cover;
 }
 
 #pic3.content {
-    background-image:url(images/bowl3.png);
+    background-image:url(images/farmers3.jpg);
     background-size: cover;
 }
 
 #pic4.content {
-    background-image:url(images/bowl4.png);
+    background-image:url(images/farmers4.jpg);
     background-size: cover;
 }
 
 #pic5.content {
-    background-image:url(images/bowl5.png);
+    background-image:url(images/farmers5.jpg);
     background-size: cover;
 }
 
 #pic6.content {
-    background-image:url(images/bowl6.png);
+    background-image:url(images/farmers6.jpg);
     background-size: cover;
     background-position: center;
 }
