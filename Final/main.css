@@ -127,6 +127,16 @@ h3 {
     margin-top: 10px;
 }
 
+h3.abs-pos {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #ffffff; 
+    line-height: 35px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
 h3.ttlHdr2c {
     padding-top: 68px;
     font-weight: 200;
@@ -135,6 +145,8 @@ h3.ttlHdr2c {
     font-size: 300;
     font-size: 24px;
     line-height: 28px;
+    padding-left: 10px;
+    color: white;
 }
 
 a {
