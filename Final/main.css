@@ -2,6 +2,7 @@
 /* CSS Document */
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500&display=swap');
 
 #logo {
     width: 450px;
@@ -37,15 +38,19 @@ p#boardOfdirectors.body {
 p.bodytitle {
     font-weight: 700;
     margin-top: 10px;
+    padding-left: 15px;
 }
 
 p.body {
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
+    padding-left: 15px;
 }
 
 p#tagline {
-    font-family: 'Oswald', sans-serif;
-    font-size: x-small;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 8px;
     font-style: normal;
     color: #339999;
     width: 300px;
@@ -54,13 +59,16 @@ p#tagline {
 }
 
 p#welcome {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 200;    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;   
+    font-size: 16px;
+    line-height: 20px; 
 }
+
 p.address {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    padding-left: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding-left: 15px;
     line-height: 20px;
     color: #666666;
     clear: both;
@@ -71,8 +79,8 @@ p.address {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     color: white;    
 }
 
@@ -89,8 +97,11 @@ h2 {
 
 h2.ttlHdr2b {
     padding-top: 68px;
-    font-weight: 400;
+    font-weight: 300;
     width: 345px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
 }
 
 h2.ttlHdr2mission {
@@ -99,6 +110,10 @@ h2.ttlHdr2mission {
     font-size: 20px;
     line-height: 24px;
     width: 345px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    }
 }
 
 h3 {
@@ -115,11 +130,15 @@ h3.ttlHdr2c {
     padding-top: 68px;
     font-weight: 200;
     width: 350px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 300;
+    font-size: 24px;
+    line-height: 28px;
 }
 
 a {
     font-family: 'Oswald', sans-serif,;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 a:link {
@@ -350,6 +369,10 @@ p#contact, p#contact a {
     font-size:x-small;
     width:250px;
     margin-top: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 7px;
+    font-weight: 200;
+    line-height: 9px;
 }
 
 .accordion {
@@ -559,16 +582,16 @@ input {
     }
 
     h1 {
-        top:56%;
-        left:33%;
-        font-size: 65px;
+        top:67%;
+        left:29%;
+        font-size: 47px;
     }
 
     #ttlHdrbd.abs-pos {
-        top:40%;
-        left:23%;
-        font-size: 65px;
-        line-height: 63px
+        top:56%;
+        left:25%;
+        font-size: 47px;
+        line-height: 48px
     }
 
     #ttlHdrabout.abs-pos {
@@ -585,6 +608,7 @@ input {
 
     .link {
         float: left;
+        margin-left: 15px;
     }
 
     #about {
@@ -592,16 +616,16 @@ input {
     }
 
     #ttlHdrdonate.abs-pos {
-        top:58%;
-        left:45%;
-        font-size: 65px;
+        top:67%;
+        left:43%;
+        font-size: 47px;
         line-height: 63px
     }
 
     #ttlHdrevents.abs-pos {
-        top:58%;
+        top:68%;
         left:45%;
-        font-size: 65px;
+        font-size: 47px;
         line-height: 63px
     }
 
@@ -657,11 +681,15 @@ input {
         padding-top: 68px;
         font-weight: 200;
         width: 250px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        line-height: 28px;
+        
     }
 
     h1 {
         top:56%;
-        left:65%;
+        left:53%;
         font-size: 65px;
     }
 
@@ -677,8 +705,8 @@ input {
     }
 
     #ttlHdrbd.abs-pos {
-        top:60%;
-        left:30%;
+        top:43%;
+        left:50%;
         font-size: 65px;
         line-height: 63px
     }
@@ -692,7 +720,7 @@ input {
 
     #ttlHdrdonate.abs-pos {
         top:58%;
-        left:72%;
+        left:61ß%;
         font-size: 65px;
         line-height: 63px
     }
@@ -703,9 +731,13 @@ input {
 
     #ttlHdrevents.abs-pos {
         top:58%;
-        left:72%;
+        left: 62%;
         font-size: 65px;
         line-height: 63px
+    }
+
+    a {
+        font-size: 14px;
     }
 }
     
@@ -747,7 +779,7 @@ input {
 
     h1 {
         top:56%;
-        left:73%;
+        left:62%;
         font-size: 65px;
     }
 
@@ -756,8 +788,8 @@ input {
     }
 
     #ttlHdrbd.abs-pos {
-        top:60%;
-        left:44%;
+        top:42%;
+        left:59%;
         font-size: 65px;
         line-height: 63px
     }
@@ -782,7 +814,7 @@ input {
 
     #ttlHdrdonate.abs-pos {
         top:58%;
-        left:78%;
+        left:69%;
         font-size: 65px;
         line-height: 63px
     }
@@ -793,7 +825,7 @@ input {
 
     #ttlHdrevents.abs-pos {
         top:58%;
-        left:78%;
+        left:70%;
         font-size: 65px;
         line-height: 63px
     }
