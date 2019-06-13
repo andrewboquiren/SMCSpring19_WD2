@@ -110,9 +110,10 @@ h2.ttlHdr2mission {
     font-size: 20px;
     line-height: 24px;
     width: 345px;
+    font-family:18px;
+    line-height: 24px;
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    line-height: 28px;
+    font-weight: 300;
     }
 }
 
@@ -595,9 +596,9 @@ input {
     }
 
     #ttlHdrabout.abs-pos {
-        top:58%;
+        top:67%;
         left:50%;
-        font-size: 65px;
+        font-size: 47px;
         line-height: 63px
     }
 
@@ -713,14 +714,14 @@ input {
 
     #ttlHdrabout.abs-pos {
         top:58%;
-        left:72%;
+        left:67%;
         font-size: 65px;
         line-height: 63px
     }
 
     #ttlHdrdonate.abs-pos {
         top:58%;
-        left:61ß%;
+        left:61%;
         font-size: 65px;
         line-height: 63px
     }
@@ -807,7 +808,7 @@ input {
 
     #ttlHdrabout.abs-pos {
         top:58%;
-        left:78%;
+        left:73%;
         font-size: 65px;
         line-height: 63px
     }
